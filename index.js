@@ -1,5 +1,5 @@
 
- function wrapGifts(ary,event) {
+ function writeCards(ary,event) {
    const msgCollection;
   for (let i = 0; i < ary.length; i++) {
     msgCollection.push(`Thank you, ${ary[i]}, for the wonderful ${event} gift!`)
